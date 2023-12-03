@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Piano</title>
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Piano Virtual</h2>
+            <div class="column volume"><span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any"></div>
+            <div class="column teclas-check"><span>Legenda</span><input type="checkbox" checked></div>
+        </header>
+        <ul class="piano-teclas">
+            <li class="tecla branca" data-tecla="a"><span><p>do</p> a</span></li>
+            <li class="tecla  preta" data-tecla="w"><span><p>do#</p> w</span></li>
+            <li class="tecla branca" data-tecla="s"><span><p>ré</p> s</span></li>
+            <li class="tecla  preta" data-tecla="e"><span><p>ré#</p> e</span></li>
+            <li class="tecla branca" data-tecla="d"><span><p>mi</p> d</span></li>
+            <li class="tecla branca" data-tecla="f"><span><p>fa</p> f</span></li>
+            <li class="tecla  preta" data-tecla="g"><span><p>fa#</p> g</span></li>
+            <li class="tecla branca" data-tecla="y"><span><p>sol</p> y</span></li>
+            <li class="tecla  preta" data-tecla="h"><span><p>sol#</p> h</span></li>
+            <li class="tecla branca" data-tecla="u"><span><p>lá</p> u</span></li>
+            <li class="tecla  preta" data-tecla="j"><span><p>lá#</p> j</span></li>
+            <li class="tecla branca" data-tecla="k"><span><p>si</p> k</span></li>
+            <li class="tecla branca" data-tecla="l"><span><p>do</p> l</span></li>
+            <li class="tecla  preta" data-tecla="p"><span><p>do#</p> p</span></li>
+            <li class="tecla branca" data-tecla=";"><span><p>ré</p> ;</span></li>
+            
+        </ul>
+    </div>
+</body>
+<script src="./src/script/engine.js" defer></script>
+</html>
